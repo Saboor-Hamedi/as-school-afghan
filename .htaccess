@@ -1,1 +1,6 @@
 ErrorDocument 404 /Scripsi/Error/Error404.php
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^$ public/ [L]
+    RewriteRule (.*) public/$1 [L]
+</IfModule>
