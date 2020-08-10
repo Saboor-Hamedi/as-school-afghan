@@ -1,17 +1,1 @@
 ErrorDocument 404 /Scripsi/Error/Error404.php
-<Directory />
-    Options FollowSymLinks
-    AllowOverride All
-    Require all denied
- </Directory>
-
- <Directory /usr/share>
-    AllowOverride None
-    Require all granted
- </Directory>
-
- <Directory /var/www/>
-    Options Indexes FollowSymLinks
-    AllowOverride all
-    Require all granted
- </Directory>
