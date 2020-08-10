@@ -1,0 +1,28 @@
+{
+    "auto-close-tag.activationOnLanguage": [
+    
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "editor.fontSize": 18,
+    "editor.fontWeight": "bold",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+}
